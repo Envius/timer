@@ -22,6 +22,13 @@
 		849C94E218FBFC1D00F9218A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849C94C118FBFC1D00F9218A /* UIKit.framework */; };
 		849C94EA18FBFC1D00F9218A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 849C94E818FBFC1D00F9218A /* InfoPlist.strings */; };
 		849C94EC18FBFC1D00F9218A /* timerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C94EB18FBFC1D00F9218A /* timerTests.m */; };
+		849F93A8190E892000DF4152 /* b_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 849F93A2190E892000DF4152 /* b_2.png */; };
+		849F93A9190E892000DF4152 /* b_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 849F93A3190E892000DF4152 /* b_3.png */; };
+		849F93AA190E892000DF4152 /* b_retina_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 849F93A4190E892000DF4152 /* b_retina_1.png */; };
+		849F93AB190E892000DF4152 /* b_retina_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 849F93A5190E892000DF4152 /* b_retina_2.png */; };
+		849F93AC190E892000DF4152 /* b_retina_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 849F93A6190E892000DF4152 /* b_retina_3.png */; };
+		849F93AE190E8D0100DF4152 /* b_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 849F93B1190E8D0100DF4152 /* b_1.png */; };
+		849F93AF190E8D0100DF4152 /* b_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 849F93B1190E8D0100DF4152 /* b_1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +62,12 @@
 		849C94E718FBFC1D00F9218A /* timerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "timerTests-Info.plist"; sourceTree = "<group>"; };
 		849C94E918FBFC1D00F9218A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		849C94EB18FBFC1D00F9218A /* timerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = timerTests.m; sourceTree = "<group>"; };
+		849F93A2190E892000DF4152 /* b_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b_2.png; sourceTree = "<group>"; };
+		849F93A3190E892000DF4152 /* b_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b_3.png; sourceTree = "<group>"; };
+		849F93A4190E892000DF4152 /* b_retina_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b_retina_1.png; sourceTree = "<group>"; };
+		849F93A5190E892000DF4152 /* b_retina_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b_retina_2.png; sourceTree = "<group>"; };
+		849F93A6190E892000DF4152 /* b_retina_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b_retina_3.png; sourceTree = "<group>"; };
+		849F93B0190E8D0100DF4152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/b_1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +142,7 @@
 		849C94C418FBFC1D00F9218A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				849F93A0190E892000DF4152 /* кнопки */,
 				849C94C518FBFC1D00F9218A /* timer-Info.plist */,
 				849C94C618FBFC1D00F9218A /* InfoPlist.strings */,
 				849C94C918FBFC1D00F9218A /* main.m */,
@@ -153,6 +167,20 @@
 				849C94E818FBFC1D00F9218A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		849F93A0190E892000DF4152 /* кнопки */ = {
+			isa = PBXGroup;
+			children = (
+				849F93B1190E8D0100DF4152 /* b_1.png */,
+				849F93A2190E892000DF4152 /* b_2.png */,
+				849F93A3190E892000DF4152 /* b_3.png */,
+				849F93A4190E892000DF4152 /* b_retina_1.png */,
+				849F93A5190E892000DF4152 /* b_retina_2.png */,
+				849F93A6190E892000DF4152 /* b_retina_3.png */,
+			);
+			name = "кнопки";
+			path = "../../кнопки/кнопки";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,10 +259,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849F93A9190E892000DF4152 /* b_3.png in Resources */,
+				849F93AE190E8D0100DF4152 /* b_1.png in Resources */,
 				849C94D418FBFC1D00F9218A /* Main_iPad.storyboard in Resources */,
 				849C94D918FBFC1D00F9218A /* Images.xcassets in Resources */,
+				849F93A8190E892000DF4152 /* b_2.png in Resources */,
+				849F93AA190E892000DF4152 /* b_retina_1.png in Resources */,
 				849C94D118FBFC1D00F9218A /* Main_iPhone.storyboard in Resources */,
+				849F93AB190E892000DF4152 /* b_retina_2.png in Resources */,
 				849C94C818FBFC1D00F9218A /* InfoPlist.strings in Resources */,
+				849F93AC190E892000DF4152 /* b_retina_3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849F93AF190E8D0100DF4152 /* b_1.png in Resources */,
 				849C94EA18FBFC1D00F9218A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +343,14 @@
 				849C94E918FBFC1D00F9218A /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		849F93B1190E8D0100DF4152 /* b_1.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849F93B0190E8D0100DF4152 /* Base */,
+			);
+			name = b_1.png;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -470,6 +513,7 @@
 				849C94F118FBFC1D00F9218A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		849C94F218FBFC1D00F9218A /* Build configuration list for PBXNativeTarget "timerTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +522,7 @@
 				849C94F418FBFC1D00F9218A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

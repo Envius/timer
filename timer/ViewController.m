@@ -17,6 +17,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    _mybutton.layer.borderWidth = .5f;
+    _mybutton.layer.borderColor = [[UIColor blackColor]CGColor];
+    _mybutton.layer.masksToBounds = true;
+    _mybutton.layer.cornerRadius = 40;
+                                  
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
